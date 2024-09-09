@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="navigation">
+      <div class="navigation__inner">
+        <div class="navigation__container navigation__container--flex">
+          <div class="navigation__menu navigation__menu--desktop">
+            <a class="navigation__link anchor-tag">shop</a>
+            <a class="navigation__link anchor-tag">mission</a>
+          </div>
+
+          <div class="navigation__burger">
+            <svg
+              width="35"
+              height="13"
+              viewBox="0 0 35 13"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect x="7.5" width="20" height="1" fill="#0B0A0C" />
+              <rect x="7.5" y="6" width="20" height="1" fill="#0B0A0C" />
+              <rect x="7.5" y="12" width="20" height="1" fill="#0B0A0C" />
+            </svg>
+          </div>
+
+          <div class="navigation__logo">
+            <svg
+              width="101"
+              height="26"
+              viewBox="0 0 101 26"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0.304 25V1.16H4.656V21.16H14.864V25H0.304ZM30.398 25.384C28.6487 25.384 27.0167 25.0747 25.502 24.456C23.9873 23.8373 22.6647 22.9733 21.534 21.864C20.4033 20.7547 19.518 19.4533 18.878 17.96C18.2593 16.4453 17.95 14.8133 17.95 13.064C17.95 11.2933 18.2593 9.66133 18.878 8.168C19.4967 6.67467 20.3713 5.37333 21.502 4.264C22.6327 3.15467 23.9553 2.30133 25.47 1.704C26.9847 1.08533 28.6273 0.775999 30.398 0.775999C32.1687 0.775999 33.8113 1.08533 35.326 1.704C36.8407 2.32266 38.1633 3.18667 39.294 4.296C40.4247 5.384 41.2993 6.67467 41.918 8.168C42.558 9.66133 42.878 11.2933 42.878 13.064C42.878 14.8133 42.558 16.4453 41.918 17.96C41.278 19.4533 40.3927 20.7547 39.262 21.864C38.1313 22.9733 36.8087 23.8373 35.294 24.456C33.8007 25.0747 32.1687 25.384 30.398 25.384ZM30.398 21.416C31.5713 21.416 32.6487 21.2133 33.63 20.808C34.6113 20.3813 35.4647 19.7947 36.19 19.048C36.9367 18.3013 37.502 17.416 37.886 16.392C38.2913 15.368 38.494 14.2587 38.494 13.064C38.494 11.8693 38.2913 10.7707 37.886 9.768C37.502 8.744 36.9367 7.85867 36.19 7.112C35.4647 6.344 34.6113 5.75733 33.63 5.352C32.6487 4.94667 31.5713 4.744 30.398 4.744C29.246 4.744 28.1793 4.94667 27.198 5.352C26.2167 5.75733 25.3527 6.344 24.606 7.112C23.8807 7.85867 23.3153 8.744 22.91 9.768C22.5047 10.7707 22.302 11.8693 22.302 13.064C22.302 14.2587 22.5047 15.368 22.91 16.392C23.3153 17.416 23.8807 18.3013 24.606 19.048C25.3527 19.7947 26.2167 20.3813 27.198 20.808C28.1793 21.2133 29.246 21.416 30.398 21.416ZM59.6438 25.384C57.9371 25.384 56.3584 25.0747 54.9078 24.456C53.4571 23.8373 52.1878 22.9733 51.0998 21.864C50.0118 20.7547 49.1584 19.4533 48.5398 17.96C47.9424 16.4667 47.6438 14.8347 47.6438 13.064C47.6438 11.2933 47.9318 9.66133 48.5078 8.168C49.1051 6.65333 49.9371 5.352 51.0038 4.264C52.0918 3.15467 53.3611 2.30133 54.8118 1.704C56.2624 1.08533 57.8411 0.775999 59.5478 0.775999C61.2544 0.775999 62.7798 1.064 64.1238 1.64C65.4891 2.216 66.6411 2.984 67.5798 3.944C68.5184 4.88267 69.1904 5.91733 69.5958 7.048L65.7238 8.904C65.2758 7.66667 64.5184 6.664 63.4518 5.896C62.3851 5.128 61.0838 4.744 59.5478 4.744C58.0544 4.744 56.7318 5.096 55.5798 5.8C54.4491 6.504 53.5638 7.47467 52.9238 8.712C52.3051 9.94933 51.9958 11.4 51.9958 13.064C51.9958 14.728 52.3158 16.1893 52.9558 17.448C53.6171 18.6853 54.5238 19.656 55.6758 20.36C56.8278 21.064 58.1504 21.416 59.6438 21.416C60.8598 21.416 61.9798 21.1813 63.0038 20.712C64.0278 20.2213 64.8491 19.5387 65.4678 18.664C66.0864 17.768 66.3958 16.712 66.3958 15.496V13.672L68.3798 15.4H59.5478V11.72H70.7478V14.12C70.7478 15.9547 70.4384 17.576 69.8198 18.984C69.2011 20.392 68.3584 21.576 67.2918 22.536C66.2464 23.4747 65.0624 24.1893 63.7398 24.68C62.4171 25.1493 61.0518 25.384 59.6438 25.384ZM87.5355 25.384C85.7862 25.384 84.1542 25.0747 82.6395 24.456C81.1248 23.8373 79.8022 22.9733 78.6715 21.864C77.5408 20.7547 76.6555 19.4533 76.0155 17.96C75.3968 16.4453 75.0875 14.8133 75.0875 13.064C75.0875 11.2933 75.3968 9.66133 76.0155 8.168C76.6342 6.67467 77.5088 5.37333 78.6395 4.264C79.7702 3.15467 81.0928 2.30133 82.6075 1.704C84.1222 1.08533 85.7648 0.775999 87.5355 0.775999C89.3062 0.775999 90.9488 1.08533 92.4635 1.704C93.9782 2.32266 95.3008 3.18667 96.4315 4.296C97.5622 5.384 98.4368 6.67467 99.0555 8.168C99.6955 9.66133 100.016 11.2933 100.016 13.064C100.016 14.8133 99.6955 16.4453 99.0555 17.96C98.4155 19.4533 97.5302 20.7547 96.3995 21.864C95.2688 22.9733 93.9462 23.8373 92.4315 24.456C90.9382 25.0747 89.3062 25.384 87.5355 25.384ZM87.5355 21.416C88.7088 21.416 89.7862 21.2133 90.7675 20.808C91.7488 20.3813 92.6022 19.7947 93.3275 19.048C94.0742 18.3013 94.6395 17.416 95.0235 16.392C95.4288 15.368 95.6315 14.2587 95.6315 13.064C95.6315 11.8693 95.4288 10.7707 95.0235 9.768C94.6395 8.744 94.0742 7.85867 93.3275 7.112C92.6022 6.344 91.7488 5.75733 90.7675 5.352C89.7862 4.94667 88.7088 4.744 87.5355 4.744C86.3835 4.744 85.3168 4.94667 84.3355 5.352C83.3542 5.75733 82.4902 6.344 81.7435 7.112C81.0182 7.85867 80.4528 8.744 80.0475 9.768C79.6422 10.7707 79.4395 11.8693 79.4395 13.064C79.4395 14.2587 79.6422 15.368 80.0475 16.392C80.4528 17.416 81.0182 18.3013 81.7435 19.048C82.4902 19.7947 83.3542 20.3813 84.3355 20.808C85.3168 21.2133 86.3835 21.416 87.5355 21.416Z"
+                fill="black"
+              />
+            </svg>
+          </div>
+
+          <div class="navigation__placeholder"></div>
+        </div>
+      </div>
+    </div>
+
+    <!--main-->
+    <!-- <img src="./images/main-mobile.jpg" alt="woman on a ball" /> -->
+
+    <div class="hero">
+      <div class="hero__content">
+        <div class="hero_inner-container">
+          <h1 class="hero__heading H1">
+            new year, new "you" with [product name]
+          </h1>
+          <a class="hero__link button-text button">try [product name]</a>
+        </div>
+      </div>
+    </div>
+
+    <!--main-->
+
+    <!--benefits-->
+    <div class="benefits">
+      <div class="benefits__inner-container">
+    
+        <div class="benefits__item">
+          <img src="./svg/moon.svg" alt="Improves sleep" class="benefits__icon">
+          <p class="benefits__description benefits__description--first paragraph1">Improves sleep</p>
+        </div>
+    
+        <div class="benefits__item">
+          <img src="./svg/boost.svg" alt="Boosts immune system" class="benefits__icon">
+          <p class="benefits__description benefits__description--second paragraph1">Boosts immune system</p>
+        </div>
+    
+        <div class="benefits__item">
+          <img src="./svg/strength.svg" alt="Third benefit description" class="benefits__icon">
+          <p class="benefits__description benefits__description--third paragraph1">Enhances strength</p>
+        </div>
+        <div class="benefits__item">
+          <img src="./svg/digestion.svg" alt="Fourth benefit description" class="benefits__icon">
+          <p class="benefits__description benefits__description--fourth  paragraph1">Improves digestion</p>
+        </div>
+      </div>
+    
+    </div>
+
+
+
+    <!--benefits-->
+
+    <!--subscribe and save-->
+    <div class="subscribe">
+      <h2 class="subscribe__title header2">subscribe & save</h2>
+    
+      <div class="subscribe__inner-container">
+
+      <div class="subscribe__item">
+        <img src="./svg/subscribe-icon-1.svg" alt="Delivery every 30 days" class="subscribe__icon">
+        <p class="subscribe__description subscribe__description--first paragraph1">delivery every 30 days</p>
+      </div>
+    
+      <div class="subscribe__item">
+        <img src="./svg/subscribe-icon-2.svg" alt="Best value per box" class="subscribe__icon">
+        <p class="subscribe__description subscribe__description--second paragraph1">best value per box</p>
+      </div>
+    
+      <div class="subscribe__item">
+        <img src="./svg/subscribe-icon-3.svg" alt="No commitment, cancel anytime" class="subscribe__icon">
+        <p class="subscribe__description subscribe__description--third paragraph1">no commitment, cancel anytime</p>
+      </div>
+    </div>
+
+    </div>
+    
+
+
+    <!--subscribe and save-->
+
+
+        <!--performance-->
+
+        <div class="performance">
+          <div class="performance__inner-container">
+
+          <h2 class="performance__title header2">Performance nutrition and healthy transformation made simple:</h2>
+        
+          <div class="performance__text-container">
+            <div class="performance__item">
+              <img src="./svg/performance-icon-1.svg" alt="Recharged metabolism to stay in peak shape" class="performance__icon">
+              <p class="performance__description performance__description--first paragraph1">Recharged <strong>metabolism</strong> to stay in peak shape</p>
+            </div>
+          
+            <div class="performance__item">
+              <img src="./svg/performance-icon-2.svg" alt="Enjoy jitter-free energy to tackle your busy schedule" class="performance__icon">
+              <p class="performance__description performance__description--second paragraph1">Enjoy jitter-free <strong>energy</strong> to tackle your busy schedule</p>
+            </div>
+          
+            <div class="performance__item">
+              <img src="./svg/performance-icon-3.svg" alt="Enhance endurance, performance, and exercise recovery" class="performance__icon">
+              <p class="performance__description performance__description--third paragraph1">Enhance <strong>endurance</strong>, <strong>performance</strong>, and exercise <strong>recovery</strong></p>
+            </div>
+          
+            <div class="performance__item">
+              <img src="./svg/performance-icon-4.svg" alt="Strengthen your immune health to stay on your game" class="performance__icon">
+              <p class="performance__description performance__description--fourth paragraph1">Strengthen your <strong>immune health</strong> to stay on your game</p>
+            </div>
+          
+            <div class="performance__item">
+              <img src="./svg/performance-icon-5.svg" alt="30 sec habit. Mixes in any beverage fast and easy" class="performance__icon">
+              <p class="performance__description performance__description--fifth paragraph1"><strong>30 sec habit</strong>. Mixes in any beverage fast and easy</p>
+            </div>
+          
+            <div class="performance__item">
+              <img src="./svg/performance-icon-6.svg" alt="Tastes amazing! No bitterness, gritty, or clumpy texture" class="performance__icon">
+              <p class="performance__description performance__description--sixth  performance__description--six paragraph1"><strong>Tastes amazing!</strong> No bitterness, gritty, or clumpy texture</p>
+            </div>
+          </div>
+        </div>
+
+        </div>
+        
+
+
+
+        <!--performance-->
+         <!--intersection-->
+         <div class="intersection">
+          <div class="intersection__item">
+            <img src="./images/intersection.png" alt="USDA certified organic ingredients" class="intersection__image">
+            <p class="intersection__description paragraph1">Only exceptional USDA certified organic, sustainably sourced ingredients qualify.</p>
+          </div>
+        </div>
+        
+
+         <!--intersection-->
+
+        <!--process-->
+
+        <div class="process">
+          <h2 class="process__title header2 H1">meticulous methodical process</h2>
+          
+          <div class="process__item-container">
+
+          <div class="process__item">
+            <img src="./svg/process-icon-1.svg" alt="Mission" class="process__icon process__icon--first">
+            <div class="process__text">
+              <p class="process__description process__description--first paragraph1"><strong>Mission</strong><br>
+                our team of researchers are working around the clock to uncover the best performance and health-boosting superfoods on the planet. We do the homework so you don’t have to. Each superfood is supported by strong clinical studies.
+              </p>
+              <img src="./svg/vector-row-1.svg" alt="border" class="process__icon-vector process__icon-vector--first">
+
+            </div>
+            <img src="./svg/arrow-right.svg" alt="arrow" class="process__icon-rightarrow">
+
+
+          </div>
+        
+          <div class="process__item process__item--right">
+            <img src="./svg/process-icon-2.svg" alt="The Problem" class="process__icon process__icon--second">
+            <div class="process__text">
+              <p class="process__description process__description--second process__description--right paragraph1"><strong>The problem</strong><br>
+                our advisory panel reviews all of the scientific research in detail. Each ingredient must pass the rigorous approval process. Once approved, only then do our formulas move on to production.
+              </p>
+              <img src="./svg/vector-row-1.svg" alt="border" class="process__icon-vector process__icon-vector--right process__icon--second">
+            </div>
+            <img src="./svg/arrow-left.svg" alt="arrow" class="process__icon-leftarrow">
+
+          </div>
+        
+          <div class="process__item">
+            <img src="./svg/process-icon-3.svg" alt="Not Therapeutic" class="process__icon process__icon--third">
+            <div class="process__text">
+              <p class="process__description process__description--third paragraph1"><strong>That isn’t therapeutic</strong><br>
+                production takes place in our GMP-compliant, state of the art manufacturing facility. Once again, only using 100% organic ingredients that have been verified by the USDA.
+              </p>
+              <img src="./svg/vector-row-3.svg" alt="border" class="process__icon-vector process__icon-vector--third">
+            </div>
+            <img src="./svg/arrow-right.svg" alt="arrow" class="process__icon-rightarrow">
+
+          </div>
+        
+          <div class="process__item process__item process__item--right">
+            <img src="./svg/process-icon-4.svg" alt="The Result" class="process__icon process__icon--fourth">
+            <div class="process__text">
+              <p class="process__description process__description--fourth process__description--right paragraph1"><strong>The result</strong><br>
+                getting our formulas into the hands of people who need it most and transforming lives for the better. We believe in improving humankind by improving human performance. And that starts with nourishing your body with the right fuel.
+              </p>
+              <img src="./svg/vector-row-1.svg" alt="border" class="process__icon-vector process__icon-vector--right process__icon-vector--fourth">
+            </div>
+
+
+          </div>
+          <div>
+
+          </div>
+             <img src="./svg/midline.svg" alt="Separator" class="process__icon-midline">
+
+
+        </div>
+
+
+          
+
+        </div>
+        
+
+
+
+         <!--process-->
+
+         <!-- slider -->
+         <div class="blend">
+          <div class="blend__inner-container">
+          <h2 class="blend__title header3"><span class="blend__title--red">[product name]</span> blend</h2>
+        
+          <div class="blend__content">
+            
+            <div class="blend__text">
+              <p class="blend__description paragraph1">
+                <span class="blend__highlight">Metabolism Boosting</span><br />
+                These powerful superfoods ignite your metabolism and reduce bloating. They improve digestion and deliver the energy you need to get things done.<br /><br />
+                <span class="blend__subline">Main Organic Ingredients:</span>
+              </p>
+            </div>
+            
+            <div class="blend__ingredients">
+              <div class="blend__ingredient-item blend__ingredient-item--first">
+                <img src="./images/ingredient-1.png" alt="organic acai berry" class="blend__ingredient-icon">
+                <p class="blend__ingredient-name paragraph1">organic acai berry</p>
+              </div>
+              
+              <div class="blend__ingredient-item blend__ingredient-item--second">
+                <img src="./images/ingredient-2.png" alt="organic acacia gum" class="blend__ingredient-icon">
+                <p class="blend__ingredient-name paragraph1">organic acacia gum</p>
+              </div>
+              
+              <div class="blend__ingredient-item blend__ingredient-item--third">
+                <img src="./images/ingredient-3.png" alt="organic ceylon cinnamon bark" class="blend__ingredient-icon">
+                <p class="blend__ingredient-name blend__ingredient-name--third paragraph1">organic ceylon cinnamon bark</p>
+              </div>
+              
+              <div class="blend__ingredient-item  blend__ingredient-item--fourth">
+                <img src="./images/ingredient-4.png" alt="organic green tea" class="blend__ingredient-icon">
+                <p class="blend__ingredient-name blend__ingredient-name--fourth paragraph1">organic green tea</p>
+              </div>
+            </div>
+            
+          </div>
+        
+          <a class="blend__cta button button-text">add to cart</a>
+        </div>
+        </div>
+        
+
+                  <!-- slider -->
+
+          <!-- FAQ -->
+          <div class="faq">
+            <h2 class="faq__title header3">FAQs</h2>
+          
+            <div class="faq__item-outer">
+              <div class="faq__item">
+                <div class="faq__header">
+                  <h3 class="faq__question faq__question--active paragraph1">
+                    What are the Effective ingredients in [product name]?
+                  </h3>
+                  <img src="./svg/faq-arrow.svg" alt="Expand" class="faq__arrow">
+                </div>
+                <div class="faq__answer">
+                  <p class="paragraph2">Pellentesque vitae convallis quam, in ultricies leo:<br /><br/>
+                  <strong>Lorem ipsum dolor sit ame:</strong><br/>
+                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc gravida sollicitudin diam, vestibulum placerat nisl finibus ut. Duis ac pulvinar justo. Aliquam mi nisl, gravida eget suscipit non, sodales in tortor. Nam purus sem, blandit non justo ac, ornare tempor quam. Morbi pharetra vehicula ornare.<br /><br />
+                  <strong>Curabitur gravida ullamcorper dui:</strong><br/>
+                  Pellentesque tincidunt efficitur suscipit. Aliquam commodo id est eu cursus. Mauris ut elit quis nunc eleifend egestas in ac lorem.</p>
+                </div>
+              </div>
+          
+              <div class="faq__item">
+                <div class="faq__header">
+                  <h3 class="faq__question paragraph1">Other question 2</h3>
+                  <img src="./svg/faq-arrow.svg" alt="Expand" class="faq__arrow">
+                </div>
+                <div class="faq__answer">
+                  <p class="paragraph2">Answer to question 2.</p>
+                </div>
+              </div>
+          
+              <div class="faq__item">
+                <div class="faq__header">
+                  <h3 class="faq__question paragraph1">Other question 3</h3>
+                  <img src="./svg/faq-arrow.svg" alt="Expand" class="faq__arrow">
+                </div>
+                <div class="faq__answer">
+                  <p class="paragraph2">Answer to question 3.</p>
+                </div>
+              </div>
+          
+              <div class="faq__item">
+                <div class="faq__header">
+                  <h3 class="faq__question paragraph1">Other question 4</h3>
+                  <img src="./svg/faq-arrow.svg" alt="Expand" class="faq__arrow">
+                </div>
+                <div class="faq__answer">
+                  <p class="paragraph2">Answer to question 4.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+
+
+                    <!-- FAQ -->
+
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+  <script>
+
+document.querySelectorAll('.faq__header').forEach(item => {
+  item.addEventListener('click', function () {
+    const parent = this.parentNode;
+    const answer = parent.querySelector('.faq__answer');
+    const arrow = this.querySelector('.faq__arrow');
+
+    if (parent.classList.contains('faq__item--active')) {
+      parent.classList.remove('faq__item--active');
+      answer.style.maxHeight = null;
+      arrow.style.transform = 'rotate(0deg)';
+    } else {
+      document.querySelectorAll('.faq__item').forEach(i => {
+        i.classList.remove('faq__item--active');
+        i.querySelector('.faq__answer').style.maxHeight = null;
+        i.querySelector('.faq__arrow').style.transform = 'rotate(0deg)';
+      });
+
+      parent.classList.add('faq__item--active');
+      answer.style.maxHeight = answer.scrollHeight + 'px';
+      arrow.style.transform = 'rotate(180deg)';
+    }
+  });
+});
+
+
+    </script>
+</html>
